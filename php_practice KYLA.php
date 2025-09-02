@@ -208,27 +208,166 @@
         //  $h = (array) $h;
 
          
-        var_dump($a);
-        echo "<br>";
-        var_dump($b);
-        echo "<br>";
-        var_dump($c);
-        echo "<br>";
-        var_dump($d);
-        echo "<br>";
-        var_dump($e);
-        echo "<br>";
-        var_dump($f);
-        echo "<br>";
-        var_dump($g);
-        echo "<br>";
-        var_dump($h);
-        echo "<br>";
+        // var_dump($a);
+        // echo "<br>";
+        // var_dump($b);
+        // echo "<br>";
+        // var_dump($c);
+        // echo "<br>";
+        // var_dump($d);
+        // echo "<br>";
+        // var_dump($e);
+        // echo "<br>";
+        // var_dump($f);
+        // echo "<br>";
+        // var_dump($g);
+        // echo "<br>";
+        // var_dump($h);
+        // echo "<br>";
+
+        // php math
+        // $pi = pi();
+        // echo $pi, "<br>";
+
+        // $minNumber = min(300, 80, 4, 98, 3);
+        // echo $minNumber, "<br>";
+        // $maxNumber = max(300, 80, 4, 98, 3);
+        // echo $maxNumber, "<br>";
+
+        // $num = -5;
+        // echo abs($num), "<br>";
+
+        // $sqrt = sqrt(9);
+        // echo $sqrt, "<br>";
+
+        // $rounded = round(3.49, 1);
+        // echo $rounded, "<br>";
+
+        // $rand = round(3.49, 1);
+        // echo $rand, "<br>";
+
+        // echo PHP_INT_MAX, "<br>";
+        // Echo PHP_INT_MIN, "<br>";
+        // echo rand(), "<br>";
+
+        // echo rand(5, 30), "<br>";
+
+        // PHP CONSTANT
+        // define("GREETING", 23);
+        // echo GREETING, "<br>";
+
+        // $x = 5;
+        // function test(){
+        //     echo GREETING;
+        // }
+        //     test();
+
+        // PHP OPERATORS
+        // ARITHMITIC
+        // ADDITION
+        // echo 6 + 5 + 90, "<br>";
+
+        // // SUBTRACTION
+        // echo 7 - 2 - 10, "<br>";
+
+        // // PEMDAS
+        // echo 7 - 2 + 90, "<br>";
+
+        // // MULTIPLICATION
+        // echo 6 * 8 * 9, "<br>";
+
+        // // DIVISION
+        // echo 6 / 8, "<br>";
+
+        // echo 13 + 6 / 2 * 2, "<br>";
+        
+        // // MODULOS
+        // echo 5 % 3, "<br>";
+        
+        // // EXPONENT
+        // echo 6**2, "<br>";
+
+        // // DIVISION
+        // echo 6 / 8, "<br>";
+
+        // ASSIGNMENT
+        // $x = 5;
+
+        // $x +- 10;
+
+        // echo $x, "<br>";
+
+        // COMPARISON
+
+        // var_dump(6 == 6); 
+
+        // var_dump(6 === "6");
+
+        // var_dump(100 != 99);
+
+        // var_dump(100 !== 99);
+
+        // var_dump(6 > 4);
+
+        // var_dump(6 >= 6);
+
+        // var_dump(6 < 7);
+
+        // var_dump(6 <= 7);
+
+        // echo 1 <=> 1;
+
+        // echo 2 <=> 1;
+
+        // $x = 5;
+        // echo ++$x, "<br>";
+
+        // $y = 5;
+        // echo $y++, "<br>";
+        // echo $y, "<br>";
+
+        // $x = 5;
+        // echo --$x, "<br>";
+
+        // $y = 5;
+        // echo $y--, "<br>";
+        // echo $y, "<br>";
+
+        // LOGICAL 
+        // var_dump(true and true);
+        // echo"<br>";
+        // var_dump(6 == "6" && 6 > 9);
+        // echo"<br>";
+
+        // var_dump(true or true);
+        // echo"<br>";
+        // var_dump(6 == "6" or 6 > 9);
+        // echo"<br>";
+
+        // // xor
+        // var_dump(true xor false);
+        // echo"<br>";
+        // var_dump(6 == "6" xor 6 > 9);
+        // echo"<br>";
+
+        // var_dump(!true);
+        // echo"<br>";
+        // var_dump(!(6 == 7 ));
+        // echo"<br>";
+
+        // echo "Hello" . "World"
+        // $x = "Hello";
+        // $x =  $x . "World";
+        // $x .= "World";
+        // echo $x;
+
+
+
+
 
 
  ?>
 
 </body>
 </html>
-   
    
