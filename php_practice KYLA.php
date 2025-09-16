@@ -465,4 +465,75 @@
 
 </body>
 </html>
+
+
+
+//recive_page
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="receive_page.php" method="post">
+        <label for="">Firstname:</label>
+        <input type="text" name="fname">
+        <br>
+        <label for="">Lastname:</label>
+        <input type="text" name="lname">
+        <br>
+        <label for="">Gender:</label>
+        <select name="gender">
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+        </select>
+        <br>
+        <input type="submit" name="btnSubmit">
+    </form>
+</body>
+</html>
+
+
+
+
+<?php 
+    $firstname = "";
+    $lastname = "";
+    $gender = "";
+
+    if(isset($_REQUEST['btnSubmit'])){
+        if(!empty($_REQUEST['fname'])){
+            $firstname = $_REQUEST['fname'];
+        }
+
+        if(!empty($_REQUEST['lname'])){
+            $lastname = $_REQUEST['lname'];
+        }
+
+        if(!empty($_REQUEST['gender'])){
+            $gender = $_REQUEST['gender'] == "male" ? "Mr." : "Ms.";
+        }
+    }
+?>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <?php if(isset($_REQUEST['btnSubmit'])){ 
+        echo "Welcome $gender $firstname $lastname!";
+    }?>
+</body>
+</html>
    
+
