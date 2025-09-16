@@ -355,18 +355,113 @@
         // var_dump(!(6 == 7 ));
         // echo"<br>";
 
-        // echo "Hello" . "World"
+        // echo "Hello" . "World";
         // $x = "Hello";
         // $x =  $x . "World";
         // $x .= "World";
         // echo $x;
 
+        // // ternary
+        // $color = 5 > 10 ? "More" : "Less";
+        // echo $color;
+
+        // null coalescing
+        // $age = null ?? 20;
+        // echo $age;
+
+        //  looping
+        // while
+        // do while
+        // for
+        // foreach
+
+//         $students = array(
+//             array("name"=>"Mary","age"=>17,"gender"=>"Female"),
+//             array("name"=>"Joy","age"=>21,"gender"=>"Female"),
+//             array("name"=>"Ben","age"=>30,"gender"=>"Male"),
+//         );
+
+//         foreach($students as $students){
+//              foreach($students as $students){
+//             print_r($students);
+//         }
+//     }
+
+//  ?>
+
+         <!-- <h1>students</h1>
+    <ul> <?php foreach($students as $student){ ?>
+        <li>My name <?php echo $student['name'] ?> is age <?php echo $student['age'] ?> is and i am <?php echo $student['gender'] ?></li>
+    <?php } ?>
+    </ul> -->
+
+         <!-- get send data thru url -->
+         <!-- post send data thru https request-->
+          <!-- <form action="php_practice.ph" method="get">
+             <label for="">Username:</label>
+        <input type="text">
+        <br>
+        <label for="">Password:</label>
+        <input type="text">
+        <br>
+        <input type="submit" value= "Login">
+        </form>
+                                      
+        <!-- <?php 
+             if(isset($_GET['username']) and isset($_GET['password'])){
+         echo "Username: " . $_GET['username'], "<br>";
+         echo "Password: " . $_GET['password']; 
+            }
+
+            if(isset($_REQUEST['username']) and isset($_REQUEST['password'])){
+                echo "Username: " . $_REQUEST['username'], "<br>";
+                echo "Password: " . $_REQUEST['password'];
+            }
+        
+        ?>
+        <?php 
+            $error_messages = [];
+
+            if(isset($_REQUEST['btnSubmit'])){
+                if($_REQUEST['username'] == ""){
+                    array_push($error_messages, "Username is required!");
+                }
+                
+                if($_REQUEST['password'] == ""){
+                    array_push($error_messages, "Password is required!");
+                }
+            }
+        ?> -->
+
+        <!-- get send data thru url -->
+        <!-- post send data thru http request -->
+       
+       <?php 
+            if(!empty($error_messages)){
+                foreach($error_messages as $error){
+                    echo $error ."<br>";
+                }
+            }      
+        ?>
+        <form action="php_practice.php" method="get">
+            <label for="">Username:</label>
+            <input type="text" name="username">
+            <br>    
+            <label for="">Password:</label>
+            <input type="password" name="password">
+            <br>
+             <label for="">Age:</label>
+            <input type="Age" name="Age">
+            <br> 
+            <input type="submit" value="Login" name="btnSubmit">
+        </form>
+            
+        
 
 
 
 
 
- ?>
 
 </body>
 </html>
